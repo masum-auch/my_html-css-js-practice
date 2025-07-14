@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.header_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 62, 80);
+    padding: 20px 50px;
+    color: #fff;
+}
+.header_part h2 {
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    color: rgb(189, 195, 199);
+    border-top: 1px solid #fff;
+    font-size: bold;
+    transition-duration: 0.5s;
+}
+
+/* section 1 part styling */
+.hero-section {
+    background: url(/images/pexels-njeromin-18160511.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+.hero-section::after{
+    background: #000;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 600px;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+.hero-section h1 {
+    color: #fff;
+    font-size: 50px;
+    font-style: italic;
+}
+.hero-section p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hero-section h1::first-letter{
+    color: aqua;
+    font-size: 70px;
+}
+.hero-section .cta-button{
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    background-color: rgb(230, 126, 34);
+    border: 1px solid rgb(230, 126, 34);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.hero-section .cta-button:hover {
+    color: aliceblue;
+    background-color: rgb(243, 156, 18);
+    transition-duration: 0.5s;
+}
+/* Section 2 part styling */
+.services-section {
+    background-color: rgb(149, 165, 166);
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+.services-section .service {
+    background-color: rgb(149, 165, 166);
+    width: 25%;
+    height: 200px;
+}
+.services-section .service img {
+    color: #fff;
+    width: 28px;
+    margin-bottom: 10px;
+}
+.services-section .service h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin-bottom: 7px;
+}
+.services-section .service p {
+    color: #ffffffad;
+    font-size: 13px;
+}
+.steps-section {
+    background-color: rgb(149, 165, 166);
+    padding: 20px 30px;
+    width: 100%;
+    height: 50vh;
+}
+.steps-section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.steps .step {
+    text-align: center;
+    width: 28%;
+    height: 200px;
+}
+.steps-section .steps span {
+    background-color: rgb(255, 192, 72);
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.steps-section .steps h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.steps-section .steps p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.cta-footer{
+    background-color:rgb(179, 55, 113);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.cta-footer h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.cta-footer p {
+    font-size: 14px;
+    color: #ffffff8b;
+    margin-bottom: 20px;
+}
+.cta-footer button {
+    font-size: 14px;
+    margin-bottom: 20px;
+    background-color: rgb(252, 92, 101);
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    padding: 20px 30px;
+    color: #fff;
+    text-align: center;
+}

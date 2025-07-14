@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDF0E8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Section styling */
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  /* Content Section */
+  .content-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .content-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .content-section a {
+    color: #1472FF;
+    text-decoration: none;
+  }
+  
+  .content-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ebook Offer */
+  .ebook-offer {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .ebook-offer img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .ebook-details p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .ebook-details button {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .ebook-details button:hover {
+    background-color: #E64A19;
+  }
+  
+  /* Image Section */
+  .image-section {
+    position: relative;
+  }
+  
+  .image-section img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  /* Move second image up and left */
+  .image-section-2 {
+    position: relative;
+    margin-top: -50px; /* Moves image up */
+    margin-left: -40px; /* Moves image left */
+  }
+  
+  .image-section-2 img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  /* Footer Section */
+  .publish-info {
+    margin-top: 10px;
+  }
+  
+  .publish-info p {
+    font-size: 14px;
+    color: #888;
+  }
+  

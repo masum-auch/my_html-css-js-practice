@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 6 html</title>
+</head>
+<body>
+    <h2>Welcome to day 6 hatml practice</h2>
+    <figure>
+        <img src="how-to-start-coding-1.jpg" alt="how-to-start-coding-1" width="300px">
+        <figcaption>This is not support in device-width</figcaption>
+    </figure>
+    <details>
+        <summary>don't waste your time</summary>
+                <p>hea, i am waste on my time</p>
+                <p>my <mark>relative</mark> nei samja time</p>
+    </details>
+    <time datetime="22-09-2024">My Time</time>
+     Define the canvas with width and height
+    <canvas id="myCanvas" width="200px" height="50px" style="border: 1px solid red;">
+        Your browser does not support the canvas element
+    </canvas>
+    <svg width="300" height="200" style="border: 1px solid blue; box-color: green;">
+        <circle cy="100" cx="150" r="50" fill="red"/>
+    </svg>
+    
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG আঁকার উদাহরণ</title>
+    <style>
+        svg {
+            border: 1px solid #ccc;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SVG আঁকার বিভিন্ন উপায়</h1>
+
+    <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+        <!-- আয়তক্ষেত্র -->
+        <rect x="10" y="10" width="100" height="50" fill="blue" />
+
+        <!-- লাইন -->
+        <line x1="0" y1="0" x2="200" y2="200" stroke="green" stroke-width="2" />
+
+        <!-- এলিপ্স -->
+        <ellipse cx="100" cy="150" rx="80" ry="40" fill="yellow" />
+
+        <!-- পলিগন -->
+        <polygon points="150,10 120,90 180,90" fill="purple" />
+
+        <!-- পাথ -->
+        <path d="M10 250 H 290 V 290 H 10 L 10 250" fill="none" stroke="black" />
+
+        <!-- টেক্সট -->
+        <text x="50" y="265" font-family="Verdana" font-size="20" fill="black">Hello SVG</text>
+    </svg>
+
+</body>
+</html>
+

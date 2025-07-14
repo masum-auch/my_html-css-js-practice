@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10: Flexbox Layout</title>
+    <link rel="stylesheet" href="style10.css">
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
+
+hamburger.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
+
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <!--Hamburger icon for mobile-->
+            ☰
+        </div>
+    </nav>
+    <main>
+        <section class="content_section">
+            <div class="portfolio">
+                <div class="image_container">
+                    <img src="porject-portfolio2.png" alt="Descriptive Alt Text">
+                </div>
+                <div class="text_container">
+                    <h2>Section Title 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fuga deleniti molestias illo itaque voluptatem a,
+                         eius amet vero aspernatur voluptates?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="image_container">
+                    <img src="porject-portfolio2.png" alt="Descriptive Alt Text">
+                </div>
+                <div class="text_container">
+                    <h2>Section Title 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fuga deleniti molestias illo itaque voluptatem a,
+                         eius amet vero aspernatur voluptates?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="image_container">
+                    <img src="porject-portfolio2.png" alt="Descriptive Alt Text">
+                </div>
+                <div class="text_container">
+                    <h2>Section Title 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fuga deleniti molestias illo itaque voluptatem a,
+                         eius amet vero aspernatur voluptates?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="image_container">
+                    <img src="porject-portfolio2.png" alt="Descriptive Alt Text">
+                </div>
+                <div class="text_container">
+                    <h2>Section Title 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fuga deleniti molestias illo itaque voluptatem a,
+                         eius amet vero aspernatur voluptates?</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.table-container{
+    overflow-x: auto; /* Enables horizontal scroll on small screens */
+}
+table{
+    width: 100px;
+    border-collapse: collapse;
+    min-width: 600px; /* Ensures table has a minimum width */
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  th {
+    background-color: #f4f4f4;
+  }
+  /* Responsive Styles */
+    @media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
